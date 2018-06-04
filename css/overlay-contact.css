@@ -179,7 +179,7 @@ button:hover {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss}line{font-family:\00003146}}
 .bar-two {
   -webkit-transform: rotate(-130deg);
-          transform: rotate(-130deg);
+  transform: rotate(-130deg);
 }
 
 /*# sourceMappingURL=overlay-contact.css.map */

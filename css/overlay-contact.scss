@@ -144,7 +144,10 @@ button:hover {
   transform:  rotate(130deg);
 }
 .bar-two{
-  transform: rotate(-130deg);
-
+  -webkit-transform:  rotate(-130deg);
+  -moz-transform:  rotate(-130deg);
+  -ms-transform:  rotate(-130deg);
+  -o-transform:  rotate(-130deg);
+  transform:  rotate(-130deg);
 }
 

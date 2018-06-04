@@ -8,12 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d96c5b2-cf07-4366-bbdb-050579bd9c59" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/overlay-contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/overlay-contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/overlay-contact.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/overlay-contact.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/overlay-contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/overlay-contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,8 +31,8 @@
       <file leaf-file-name="overlay-contact.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/overlay-contact.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="134" column="14" selection-start-line="134" selection-start-column="14" selection-end-line="134" selection-end-column="14" />
+            <state relative-caret-position="788">
+              <caret line="150" column="30" lean-forward="true" selection-start-line="150" selection-start-column="30" selection-end-line="150" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -189,12 +184,12 @@
       <option name="presentableId" value="Default" />
       <updated>1528037570439</updated>
       <workItem from="1528037571775" duration="24360000" />
-      <workItem from="1528133964817" duration="1106000" />
+      <workItem from="1528133964817" duration="1765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25466000" />
+    <option name="totallyTimeSpent" value="26125000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
@@ -283,8 +278,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/overlay-contact.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="134" column="14" selection-start-line="134" selection-start-column="14" selection-end-line="134" selection-end-column="14" />
+        <state relative-caret-position="788">
+          <caret line="150" column="30" lean-forward="true" selection-start-line="150" selection-start-column="30" selection-end-line="150" selection-end-column="30" />
         </state>
       </provider>
     </entry>
