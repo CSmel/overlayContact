@@ -1,0 +1,23 @@
+{
+  "name": "overlaycontact",
+  "version": "1.0.0",
+  "description": "A overlay contact card",
+  "main": "index.html",
+  "dependencies": {
+    "sass": "^1.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "overlayContact"
+  },
+  "keywords": [
+    "social",
+    "card"
+  ],
+  "author": "Mel Sakas",
+  "license": "ISC"
+}
