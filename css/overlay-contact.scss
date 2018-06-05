@@ -5,14 +5,40 @@ body {
 }
 
 /* sass extend variables */
-.contentBorderTopExtend {
+%contentBorderTopExtend {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
 }
 
-.contentBorderBotExtend {
+%contentBorderBotExtend {
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
+}
+
+%closeButtonDef {
+  position: relative;
+  width: 30px;
+  height: 3px;
+  background-color: #0b58a2;
+  margin: -2px auto;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+
+@mixin menuPosBar($posBar) {
+  -webkit-transform: rotate($posBar);
+  -moz-transform: rotate($posBar);
+  -ms-transform: rotate($posBar);
+  -o-transform: rotate($posBar);
+  transform: rotate($posBar);
+}
+
+@mixin menuNegBar($negBar) {
+  -webkit-transform: rotate($negBar);
+  -moz-transform: rotate($negBar);
+  -ms-transform: rotate($negBar);
+  -o-transform: rotate($negBar);
+  transform: rotate($negBar);
 }
 
 #overlay {
@@ -26,6 +52,23 @@ body {
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 2;
+}
+
+#closeCard {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  font-size: 2em;
+  z-index: 1;
+  .bar-one {
+    @include menuPosBar(130deg);
+    @extend %closeButtonDef;
+  }
+  .bar-two {
+    @include menuNegBar(-130deg);
+    @extend %closeButtonDef;
+  }
 }
 
 #cardContainerFlex {
@@ -46,7 +89,7 @@ body {
 }
 
 .card-head {
-  @extend .contentBorderTopExtend;
+  @extend %contentBorderTopExtend;
   display: flex;
   position: relative;
   background: url("../images/IMG3.jpg") white no-repeat center;
@@ -65,7 +108,7 @@ body {
   height: 70%;
   max-height: 440px;
   background-color: white;
-  @extend .contentBorderBotExtend;
+  @extend %contentBorderBotExtend;
 }
 
 .fa-linkedin-in, .fa-github-alt {
@@ -110,44 +153,11 @@ button {
 
 button:hover {
   color: #315f98;
-  transition: color .5s;
+  background-color: #eee;
+  transition: background-color .5s, color .5s;
 
-}
-
-#closeCard {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 20px;
-  font-size: 2em;
-  z-index: 1;
 }
 
 #closeCard:hover {
   cursor: pointer;
 }
-
-.bar-one, .bar-two{
-  position: relative;
-  width: 30px;
-  height: 3px;
-  background-color: #0b58a2;
-  margin:   -2px auto;
-  transition: 0.4s;
-  border-radius: 5px;
-}
-.bar-one{
-  -webkit-transform:  rotate(130deg);
-  -moz-transform:  rotate(130deg);
-  -ms-transform:  rotate(130deg);
-  -o-transform:  rotate(130deg);
-  transform:  rotate(130deg);
-}
-.bar-two{
-  -webkit-transform:  rotate(-130deg);
-  -moz-transform:  rotate(-130deg);
-  -ms-transform:  rotate(-130deg);
-  -o-transform:  rotate(-130deg);
-  transform:  rotate(-130deg);
-}
-

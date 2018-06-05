@@ -1,185 +1,367 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:600");
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss}line{font-family:\000033}}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss
+    }
+
+    line {
+        font-family: \000033
+    }
+}
+
 body {
-  font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 /* sass extend variables */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss}line{font-family:\000038}}
-.contentBorderTopExtend, .card-head {
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss
+    }
+
+    line {
+        font-family: \000038
+    }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss}line{font-family:\0000313}}
-.contentBorderBotExtend, .card-content {
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss}line{font-family:\0000318}}
-#overlay {
-  position: fixed;
-  display: none;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 2;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss}line{font-family:\0000331}}
-#cardContainerFlex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 90%;
-  max-width: 350px;
-  height: 90%;
-  max-height: 440px;
-  border: 1px solid #fff;
-  margin: auto;
-  border-radius: 30px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss}line{font-family:\0000342}}
-#cardContainer {
-  height: 100%;
-  width: 100%;
-  border-radius: 30px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss}line{font-family:\0000348}}
 .card-head {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  background: url("../images/IMG3.jpg") white no-repeat center;
-  width: 100%;
-  max-width: 350px;
-  height: 30%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss}line{font-family:\0000358}}
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss
+    }
+
+    line {
+        font-family: \0000313
+    }
+}
+
 .card-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 100%;
-  max-width: 350px;
-  height: 70%;
-  max-height: 440px;
-  background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss}line{font-family:\0000371}}
-.fa-linkedin-in, .fa-github-alt {
-  font-size: 1.8em;
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss
+    }
+
+    line {
+        font-family: \0000318
+    }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss}line{font-family:\0000375}}
-.fa-linkedin-in:hover, .fa-github-alt:hover {
-  color: #315f98;
-  -webkit-transition: color .5s;
-  transition: color .5s;
+#closeCard .bar-one, #closeCard .bar-two {
+    position: relative;
+    width: 30px;
+    height: 3px;
+    background-color: #0b58a2;
+    margin: -2px auto;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss}line{font-family:\0000380}}
-.my-face {
-  position: absolute;
-  left: 50%;
-  top: 20%;
-  -webkit-transform: translate(-50%, 50%);
-          transform: translate(-50%, 50%);
-  background: url("../images/messy.jpg") no-repeat center;
-  background-size: 100px 100px;
-  height: 100px;
-  width: 100px;
-  border-radius: 60px;
-  border: 10px solid #fff;
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss
+    }
+
+    line {
+        font-family: \0000344
+    }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss}line{font-family:\0000393}}
-.title {
-  font-size: 2em;
-  margin: auto;
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss}line{font-family:\0000398}}
-.social-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  width: 100%;
-  padding: 20px;
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss
+    }
+
+    line {
+        font-family: \0000357
+    }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss}line{font-family:\00003105}}
-button {
-  background-color: transparent;
-  border: 2px solid black;
-  padding: 10px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss}line{font-family:\00003111}}
-button:hover {
-  color: #315f98;
-  -webkit-transition: color .5s;
-  transition: color .5s;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss}line{font-family:\00003117}}
 #closeCard {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 20px;
-  font-size: 2em;
-  z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    font-size: 2em;
+    z-index: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss}line{font-family:\00003126}}
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss
+    }
+
+    line {
+        font-family: \0000364
+    }
+}
+
+#closeCard .bar-one {
+    -webkit-transform: rotate(130deg);
+    transform: rotate(130deg);
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss
+    }
+
+    line {
+        font-family: \0000368
+    }
+}
+
+#closeCard .bar-two {
+    -webkit-transform: rotate(-130deg);
+    transform: rotate(-130deg);
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss
+    }
+
+    line {
+        font-family: \0000374
+    }
+}
+
+#cardContainerFlex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 90%;
+    max-width: 350px;
+    height: 90%;
+    max-height: 440px;
+    border: 1px solid #fff;
+    margin: auto;
+    border-radius: 30px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss
+    }
+
+    line {
+        font-family: \0000385
+    }
+}
+
+#cardContainer {
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss
+    }
+
+    line {
+        font-family: \0000391
+    }
+}
+
+.card-head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    background: url("../images/IMG3.jpg") white no-repeat center;
+    width: 100%;
+    max-width: 350px;
+    height: 30%;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss
+    }
+
+    line {
+        font-family: \00003101
+    }
+}
+
+.card-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    max-width: 350px;
+    height: 70%;
+    max-height: 440px;
+    background-color: white;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss
+    }
+
+    line {
+        font-family: \00003114
+    }
+}
+
+.fa-linkedin-in, .fa-github-alt {
+    font-size: 1.8em;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss
+    }
+
+    line {
+        font-family: \00003118
+    }
+}
+
+.fa-linkedin-in:hover, .fa-github-alt:hover {
+    color: #315f98;
+    -webkit-transition: color .5s;
+    transition: color .5s;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss
+    }
+
+    line {
+        font-family: \00003123
+    }
+}
+
+.my-face {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    -webkit-transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%);
+    background: url("../images/messy.jpg") no-repeat center;
+    background-size: 100px 100px;
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+    border: 10px solid #fff;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss
+    }
+
+    line {
+        font-family: \00003136
+    }
+}
+
+.title {
+    font-size: 2em;
+    margin: auto;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss
+    }
+
+    line {
+        font-family: \00003141
+    }
+}
+
+.social-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss
+    }
+
+    line {
+        font-family: \00003148
+    }
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss
+    }
+
+    line {
+        font-family: \00003154
+    }
+}
+
+button:hover {
+    color: #315f98;
+    background-color: #eee;
+    -webkit-transition: background-color .5s, color .5s;
+    transition: background-color .5s, color .5s;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss
+    }
+
+    line {
+        font-family: \00003161
+    }
+}
+
 #closeCard:hover {
-  cursor: pointer;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss}line{font-family:\00003130}}
-.bar-one, .bar-two {
-  position: relative;
-  width: 30px;
-  height: 3px;
-  background-color: #0b58a2;
-  margin: -2px auto;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-  border-radius: 5px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss}line{font-family:\00003139}}
-.bar-one {
-  -webkit-transform: rotate(130deg);
-  transform: rotate(130deg);
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/overlayContact\/css\/overlay-contact\.scss}line{font-family:\00003146}}
-.bar-two {
-  -webkit-transform: rotate(-130deg);
-  transform: rotate(-130deg);
+    cursor: pointer;
 }
 
 /*# sourceMappingURL=overlay-contact.css.map */
